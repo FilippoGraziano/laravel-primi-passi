@@ -14,8 +14,10 @@
     </nav>
 
     <h1>Home</h1>
-    <?php
-        echo $homeDes
-    ?>
+
+    <p>
+        {{$homeDes}}
+    </p>
+    
 </body>
 </html>

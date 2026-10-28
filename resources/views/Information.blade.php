@@ -14,8 +14,10 @@
     </nav>
 
     <h1>Information</h1>
-    <?php
-        echo $informationDes
-    ?>
+    
+    <p>
+        {{$informationDes}}
+    </p>
+
 </body>
 </html>

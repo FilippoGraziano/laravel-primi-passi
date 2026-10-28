@@ -14,8 +14,10 @@
     </nav>
 
     <h1>Help</h1>
-    <?php
-        echo $helpDes
-    ?>
+    
+    <p>
+        {{$helpDes}}
+    </p>
+
 </body>
 </html>
