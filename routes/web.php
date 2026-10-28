@@ -8,7 +8,7 @@ Route::get('/', function () {
     voluptate animi. Ipsum labore beatae, sapiente veniam culpa eaque autem rerum porro accusantium magnam.";
 
     return view('home', ["homeDes" => $text]);
-});
+})->name("home");
 
 Route::get('/help', function () {
 
@@ -16,7 +16,7 @@ Route::get('/help', function () {
     voluptate animi. Ipsum labore beatae, sapiente veniam culpa eaque autem rerum porro accusantium magnam.";
 
     return view('help', ["helpDes" => $text]);
-});
+})->name("help");
 
 Route::get('/information', function () {
     
@@ -24,4 +24,4 @@ Route::get('/information', function () {
     oluptate animi. Ipsum labore beatae, sapiente veniam culpa eaque autem rerum porro accusantium magnam.";
 
     return view('information', ["informationDes" => $text]);
-});
+})->name("information");

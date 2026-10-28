@@ -8,9 +8,9 @@
 <body>
 
     <nav>
-        <a href="{{ url('/') }}">Home</a>
-        <a href="{{ url('/help') }}">Help</a>
-        <a href="{{ url('/information') }}">Information</a>
+        <a href="{{ route('home') }}">Home</a>
+        <a href="{{ route('help') }}">Help</a>
+        <a href="{{ route('information') }}">Information</a>
     </nav>
 
     <h1>Home</h1>
@@ -18,6 +18,6 @@
     <p>
         {{$homeDes}}
     </p>
-    
+
 </body>
 </html>
